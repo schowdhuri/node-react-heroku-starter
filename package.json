@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "author": "Subir <schowdhuri@users.noreply.github.com>",
   "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "start": "node server/index.js",
     "heroku-postbuild": "cd client && yarn && yarn build && cd ../server && yarn"
