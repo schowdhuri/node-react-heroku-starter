@@ -1,0 +1,7 @@
+{
+  "name": "heroku-fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Subir <schowdhuri@users.noreply.github.com>",
+  "license": "MIT"
+}
