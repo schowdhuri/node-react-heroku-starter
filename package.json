@@ -1,7 +1,10 @@
 {
   "name": "heroku-fullstack",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Subir <schowdhuri@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "heroku-postbuild": "cd client && yarn && yarn build && cd ../server && yarn"
+  }
 }
